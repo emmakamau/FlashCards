@@ -2,16 +2,28 @@ $(document).ready(function(){
     $("button.title").click(function(e){
         let elem = `p#${e.target.value}`
         let newElem = elem.split("#")
-        var hideDesc = document.getElementById(newElem[1])
-        console.log(hideDesc)
-
-        if(hideDesc.style.display === "none"){
-            hideDesc.style.display = "block";
-            p.style.display = "none"
+        var showDesc = document.getElementById(newElem[1]) //What we want to show
+        
+        if(showDesc.style.display === "block"){
+            showDesc.style.display = "none"
         }else{
-            hideDesc.style.display = "block";
+            $("p").hide()
+            showDesc.style.display = "block" //Display selected button
         }
 
-        //$(elem).show()
     })
+
+    //$(".new-address").each(function(){},
+
+
+    // $("button.buttonmine").click(function(e){
+    //     var myDesc = document.getElementById("five")
+    //     if(myDesc.style.display === "block"){
+    //         myDesc.style.display = "none"
+    //         console.log("Hidden")
+    //     }else{
+    //         myDesc.style.display = "block"
+    //         console.log("Displayed")
+    //     }
+    // })
 })
