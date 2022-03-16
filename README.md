@@ -1,6 +1,6 @@
 # FlashCards
-Web application  teach a few programming concepts.
-[Click to view]()
+Web application to teach a few programming concepts.
+[Click to view](https://emmakamau.github.io/FlashCards/)
 
 ## Contributor
 Emmaculate Kamau
