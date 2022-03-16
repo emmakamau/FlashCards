@@ -1,4 +1,29 @@
+
+
 h1{
     text-align: center;
     padding: 16px;
 }
+
+.definition{
+    display: none;
+}
+
+.title{
+    text-decoration: underline;
+    height: 10%;
+}
+
+.title:hover{
+    color: blue;
+}
+
+.card{
+    height: 25rem;
+    margin: 1em 0;
+}
+
+img{
+    height: 50%;
+}
+
