@@ -58,6 +58,13 @@ p{
     display: none;
 }
 
+a, a:hover{
+    color: #9A0680;
+    text-decoration: underline;
+}
+
+
+
 .centered{
     position: absolute;
     top: 50%;
