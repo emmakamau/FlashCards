@@ -1,17 +1,36 @@
 body{
-    padding: 1em;
+    padding: 0 6em;
+    background-color: #FFD39A;
+    color: #781C68 !important;;
+}
+
+.flash-card{
+    padding:0 2em;
+    background-color: #FFF5E1;
+}
+
+.row{
+    padding: 1em 0;
 }
 
 h1{
     text-align: center;
-    padding: 1em 0;
+    padding-top: 0.5em;
+    letter-spacing: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.description{
+    text-align: center;
+    padding: 0 10vw;
+    display: block;
 }
 
 img{
     display: block;
     margin: 0 auto;
-    width: 50%;
-    height: 10em !important;
+    width: 80%;
+    height: 15em !important;
 }
 
 button{
@@ -23,11 +42,14 @@ button{
     border: none;
     font-size: larger;
     font-weight: bolder;
+    outline: none !important;
+    color: #781C68 !important;
 }
 
 button:hover{
-    color: blue;
+    color:#9A0680 !important;
     border: none !important;
+    font-size: x-large;
 }
 
 p{
@@ -41,5 +63,10 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.tooltip-inner{
+    background-color: #781C68;
+    color: #FFD39A;
 }
 
